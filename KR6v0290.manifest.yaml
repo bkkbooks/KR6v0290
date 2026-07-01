@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6v0290/v1
+canonical_location: https://kanripo.org/bkk/KR6v0290/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 舜禪師等百餘人造像記
+  identifiers:
+    alt_id:
+    - I01n0089
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0089.xml
+    old_id: I01n0089
+  edition:
+    short: bkk
+editions:
+- short: 佛拓
+  label: 佛拓
+  source_xml_id: wit.orig
+- short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0290_000.yaml, hash: 'sha256:98a6aa2ec5fe0376190f15e30df2c9235e069ff03c2242299c46c496f336da38'}
+  - {seq: 1, filename: KR6v0290_001.yaml, hash: 'sha256:57329ce6b17353235705da81c70eba93e91c78be498811dde42f69746797a739'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0290_001.markers.yaml, hash: 'sha256:2453ccef57a2b53498afe32a215d5e7a10f2aa621f257cddc276eba85a779633'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0290_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 417
+  label: 舜禪師等百餘人造像記
+  type: juan
+  level: 1
+hash: sha256:e61c1c6f830c0b365e5a8a078dab382e38668de4cd65305152e1fa14cf13d627
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
