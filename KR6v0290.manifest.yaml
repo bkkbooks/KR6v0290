@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6v0290_000.yaml, hash: 'sha256:98a6aa2ec5fe0376190f15e30df2c9235e069ff03c2242299c46c496f336da38'}
-  - {seq: 1, filename: KR6v0290_001.yaml, hash: 'sha256:57329ce6b17353235705da81c70eba93e91c78be498811dde42f69746797a739'}
+  - {seq: 1, filename: KR6v0290_001.yaml, hash: 'sha256:2e1d01e1009a72907bf92714bc691dc6c9d0caa81f719599c0d13483adac3af8'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6v0290_001.markers.yaml, hash: 'sha256:2453ccef57a2b53498afe32a215d5e7a10f2aa621f257cddc276eba85a779633'}
+  - {seq: 0, role: markers, filename: assets/KR6v0290_000.markers.yaml, hash: 'sha256:bdbf627a860a8763fb2fb81ca02ac3e27c5445713c0cc19040e93921e1caf817'}
+  - {seq: 1, role: markers, filename: assets/KR6v0290_001.markers.yaml, hash: 'sha256:dec370d2ed6c5b735c9b113076e9c39936e46345d6caf3a5f8291a61b015ce92'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 舜禪師等百餘人造像記
   type: juan
   level: 1
-hash: sha256:e61c1c6f830c0b365e5a8a078dab382e38668de4cd65305152e1fa14cf13d627
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:47441953b906d94d683267c8d9c2847400bbfbeb7833ef9e55f85c31219db7fc
