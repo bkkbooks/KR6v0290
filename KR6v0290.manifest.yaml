@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6v0290/v1
 canonical_location: https://kanripo.org/bkk/KR6v0290/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 舜禪師等百餘人造像記
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6v0290_000.yaml, hash: 'sha256:98a6aa2ec5fe0376190f15e30df2c9235e069ff03c2242299c46c496f336da38'}
-  - {seq: 1, filename: KR6v0290_001.yaml, hash: 'sha256:2e1d01e1009a72907bf92714bc691dc6c9d0caa81f719599c0d13483adac3af8'}
+  - {seq: 1, filename: KR6v0290_001.yaml, hash: 'sha256:57329ce6b17353235705da81c70eba93e91c78be498811dde42f69746797a739'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6v0290_000.markers.yaml, hash: 'sha256:bdbf627a860a8763fb2fb81ca02ac3e27c5445713c0cc19040e93921e1caf817'}
-  - {seq: 1, role: markers, filename: assets/KR6v0290_001.markers.yaml, hash: 'sha256:dec370d2ed6c5b735c9b113076e9c39936e46345d6caf3a5f8291a61b015ce92'}
+  - {seq: 1, role: markers, filename: assets/KR6v0290_001.markers.yaml, hash: 'sha256:ae209e262cfcd1ba6b359c4e43577e340bb0a56aeda6b0dd7efcf7de7497051d'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 舜禪師等百餘人造像記
   type: juan
   level: 1
-hash: sha256:47441953b906d94d683267c8d9c2847400bbfbeb7833ef9e55f85c31219db7fc
+hash: sha256:5331bb7510d2ed501b67e6609564f6f0415f5b1ac54e69753dd8fc106adfb5fc
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
